@@ -5,19 +5,35 @@ import HomeWork1.ModelElements.Flash;
 import HomeWork1.ModelElements.PoligonalModel;
 import HomeWork1.ModelElements.Scene;
 
-public class ModelStore implements IModelChanger, IModelChangedObserver{
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class ModelStore implements IModelChanger, ModelChangedObserver {
     public PoligonalModel models;
     public Scene scenes;
     public Flash flashes;
     public Camera cameras;
-    private IModelChangedObserver changeObservers;
+    private Collection<ModelChangedObserver> changeObservers = new ArrayList<>();
 
-    public Scene getScenes(int id) {
-        return new Scene();
+    //TODO: Доработать
+
+    @Override
+    public void RegisterModelChanger(ModelChangedObserver o) {
+
     }
 
-    public void notifyChange(IModelChanger sender) {
-        System.out.println("notifyChange()");
+    @Override
+    public void RemoveModelChanger(ModelChangedObserver o) {
+
     }
 
+    @Override
+    public void NotifyChange() {
+
+    }
+
+    @Override
+    public void ApplyUpdateModel() {
+
+    }
 }

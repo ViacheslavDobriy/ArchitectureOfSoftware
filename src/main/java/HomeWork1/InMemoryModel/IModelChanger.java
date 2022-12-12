@@ -1,7 +1,7 @@
 package HomeWork1.InMemoryModel;
 
 public interface IModelChanger {
-    public default void notifyChange(IModelChanger sender) {
-
-    }
+    void RegisterModelChanger(ModelChangedObserver o);
+    void RemoveModelChanger(ModelChangedObserver o);
+    void NotifyChange();
 }
