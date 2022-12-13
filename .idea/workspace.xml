@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Started work on seminar1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Freelancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/BaseLogReaderCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/ConcreteReaderCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/DataBaseReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/LogReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/LogType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/OperationSystemLogEventReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/PoemReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/TemplateMethodPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar2/TextFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Worked on seminar2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/PopularNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/PopularSurnames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Freelancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Freelancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Homework">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Homework" />
