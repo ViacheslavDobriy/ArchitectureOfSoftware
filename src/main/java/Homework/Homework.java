@@ -1,22 +1,21 @@
 package Homework;
 
+import java.util.Random;
+
 public class Homework {
 
     static Employee generateEmployee() {
-        //TODO: Proceed
-        Employee employee = new Worker("Slava", "Dobrov", 3000);
-        return employee;
+
+        Random random = new Random();
+        int randInt = random.nextInt(0,2); // рандомайзер для типа рабочего
+        int randName = random.nextInt(0,PopularNames.values().length); // рандомайзер для имени -> enum PopularNames
+        int randSurname = random.nextInt(0,PopularSurnames.values().length); // рандомайзер для фамилии -> enum PopularSurnames
+        if(randInt == 0) {
+            return new Worker(PopularNames.values()[randName].getName(), PopularSurnames.values()[randSurname].getSurname(), 3000);
+        }
+        return new Freelancer(PopularNames.values()[randName].getName(), PopularSurnames.values()[randSurname].getSurname(), 3000);
     }
     public static void main(String[] args) {
-        Worker worker1 = new Worker("Anatoliy", "Shestakov", 7000);
-        System.out.println(worker1);
-        Freelancer worker2 = new Freelancer("Stas", "Dobrov", 3500);
-        System.out.println(worker2);
-
-        // TODO:
-        // 1. Доработать метод generateEmployee(), вернуть сотрудника определенного типа
-        // 2***. метод generateEmployee() должен быть без входных параметров,
-        // тип сотрудника, фио и ставка генерируются автоматически
 
         Employee[] employees = new Employee[10];
         for (int i = 0; i < employees.length; i++) {

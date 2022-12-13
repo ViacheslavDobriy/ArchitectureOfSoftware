@@ -37,12 +37,12 @@ public class Freelancer extends Employee{
 
     @Override
     public double calculateSalary() {
-        return 15 * 6 * salary;
+        return 15 * salary;
 
     }
 
     @Override
     public String toString() {
-        return String.format("%s %s; Freelancer; Average salary: %.2f (roubles); Summary salary: %.2f", name,surname,calculateSalary(),salary);
+        return String.format("%s %s; Freelancer; Average salary: %.2f (roubles);", name,surname,calculateSalary());
     }
 }

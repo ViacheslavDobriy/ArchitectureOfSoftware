@@ -3,7 +3,7 @@ package Homework;
 public class Worker extends Employee{
     @Override
     public double calculateSalary() {
-        return salary;
+        return salary*30;
     }
 
     @Override
