@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Worked on seminar2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/PopularNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework/PopularSurnames.java" afterDir="false" />
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/GearBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Harvester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/ISP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/LSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/OCP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Refueling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Sample01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/SuperCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Freelancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Freelancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Homework/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,13 +56,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework">
+  <component name="RunManager" selected="Application.LSP">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Homework" />
       <module name="ArchitectureOfSoftware" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.LSP" />
+      <module name="ArchitectureOfSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LSP" />
         <item itemvalue="Application.Homework" />
         <item itemvalue="Application.TemplateMethodPattern" />
       </list>
