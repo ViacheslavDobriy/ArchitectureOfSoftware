@@ -8,11 +8,14 @@ import java.util.Collection;
 public class Customer {
 
     private final int id;
-    private static int counter;
+    private final int cardNo;
+    private static int counterId;
+    private static int counterCardNo = 1000000;
     private Collection<Ticket> tickets;
 
     {
-        id = ++counter;
+        id = ++counterId;
+        cardNo = ++counterCardNo;
     }
 
     public int getId() {

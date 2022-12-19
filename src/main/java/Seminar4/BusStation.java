@@ -9,12 +9,13 @@ public class BusStation {
     // 2. Доработать любой модуль, в рамках соответствия принципу контрактно-ориентированного программирования
     // 3. Доработать остальные модули, в рамках соответствия принципу контрактно-ориентированного программирования
 
-    private TicketProvider ticketProvider;
+    private MobileApp mobileApp;
 
     public BusStation() {
     }
 
     public boolean useTicket(String qrCode) {
-        return ticketProvider.checkTicket(qrCode);
+//        for (Ticket ticket: mobileApp.)
+        return true;
     }
 }

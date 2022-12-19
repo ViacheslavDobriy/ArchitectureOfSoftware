@@ -32,10 +32,9 @@ public class Database {
 
     /**
      * Получить идентификатор заявки на покупку билета
-     * @param clientId
      * @return
      */
-    public int createTicketOrder(int clientId){
+    public int createTicketOrder(){
         return ++count;
     }
 }
