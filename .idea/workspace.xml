@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/FuelType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/GearBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Harvester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/ISP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/LSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Refueling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/Sample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar3/SuperCar.java" afterDir="false" />
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Homework 2 is done!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Sample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +47,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LSP">
+  <component name="RunManager" selected="Application.Factory">
+    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar4.Factory" />
+      <module name="ArchitectureOfSoftware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seminar4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Homework" />
       <module name="ArchitectureOfSoftware" />
@@ -98,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factory" />
         <item itemvalue="Application.LSP" />
         <item itemvalue="Application.Homework" />
         <item itemvalue="Application.TemplateMethodPattern" />
