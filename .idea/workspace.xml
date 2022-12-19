@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Homework 2 is done!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar4/Sample1.java" afterDir="false" />
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Worked on Seminar 3">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22__1_25_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22__1_25_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="HomeWork3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
