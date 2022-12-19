@@ -26,7 +26,7 @@ public class TicketProvider {
 
     public boolean buyTicket(int clientId, String cardNo){
 
-        int orderId = database.createTicketOrder(clientId);
+        int orderId = database.createTicketOrder();
         double amount = database.getTicketAmount();
         paymentProvider.buy(orderId,cardNo,amount);
         return true;
