@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Worked on Seminar 4.1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/ChangeAccountStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/CustomerOfBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/DebitCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/GettingSalary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/SimplyWorld.java" afterDir="false" />
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Начал все заново и издалека. Когда-нибудь это будет готово)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/BusStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/DatabaseOfCustomersOfBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/DatabaseOfPassengers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/MobileApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/PassengerAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/PaymentProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Purchasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework4/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework4/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework4/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework4/CustomerOfBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework4/CustomerOfBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Homework4/SimplyWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Homework4/SimplyWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +56,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework4.SimplyWorld">
+  <component name="RunManager" selected="Application.SimplyWorld">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Homework" />
       <module name="ArchitectureOfSoftware" />
@@ -120,7 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework4.SimplyWorld" />
+        <item itemvalue="Application.SimplyWorld" />
         <item itemvalue="Application.Seminar4.Factory" />
         <item itemvalue="Application.LSP" />
         <item itemvalue="Application.Homework" />
@@ -158,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671478391496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Начал все заново и издалека. Когда-нибудь это будет готово)">
+      <created>1671480933974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480933974</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +187,7 @@
     <MESSAGE value="Started work on seminar1" />
     <MESSAGE value="Worked on Seminar 4" />
     <MESSAGE value="Worked on Seminar 4.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on Seminar 4.1" />
+    <MESSAGE value="Начал все заново и издалека. Когда-нибудь это будет готово)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал все заново и издалека. Когда-нибудь это будет готово)" />
   </component>
 </project>
