@@ -1,13 +1,13 @@
 package Seminar5;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Random;
 import java.util.Scanner;
 
 /**
+ * TODO: ДОМАШНЕЕ ЗАДАНИЕ -> Сформировать формальную UML-диаграмму по текущей задаче.
+ *
  * ГОРИЗОНТАЛЬНЫЕ УРОВНИ И ВЕРТИКАЛЬНЫЕ СРЕЗЫ.
  * Необходимо разделить на горизонтальные уровни "Редактор 3D графики".
  * Один пользователь. Программа работает на одном компьютере без выхода в сеть.
@@ -46,7 +46,36 @@ public class Sample1 {
                         f = false;
                         break;
                     case 1:
-
+                        System.out.println("Insert name of the project file");
+                        String fileName = scanner.nextLine();
+                        editor3D.openProject(fileName);
+                        System.out.println("Project is opened successfully");
+                        break;
+                    case 3:
+                        editor3D.showProjectSettings();
+                        break;
+                    case 4:
+                        editor3D.printAllModels();
+                        break;
+                    case 5:
+                        editor3D.printAllTextures();
+                        break;
+                    case 6:
+                        editor3D.renderAll();
+                        break;
+                    case 7:
+                        System.out.println("Insert number of model");
+                        if(scanner.hasNextInt()){
+                            int modelNo = scanner.nextInt();
+                            scanner.nextLine();
+                            editor3D.renderModel(modelNo);
+                        }
+                        else {
+                            System.out.println("Number of model was inserted illegal");
+                        }
+                        break;
+                    default:
+                        System.out.println("Insert correct menu");
                 }
             }
             else{
@@ -97,22 +126,53 @@ class Editor3D implements UserInterfaceLayout{
 
     @Override
     public void printAllModels() {
+        checkProjectFile();
 
+        ArrayList<Model3D> models = (ArrayList<Model3D>)businessLogicalLayer.getAllModels();
+        for (int i = 0; i < models.size(); i++) {
+            System.out.printf("===%d===\n", i);
+            System.out.println(models.get(i));
+            for (Texture texture: models.get(i).getTextures()) {
+                System.out.printf("\t%s\n", texture);
+            }
+        }
     }
 
     @Override
     public void printAllTextures() {
+        checkProjectFile();
 
+        ArrayList<Texture> textures = (ArrayList<Texture>)businessLogicalLayer.getAllTextures();
+        for (int i = 0; i < textures.size(); i++) {
+            System.out.printf("===%d===\n", i);
+            System.out.println(textures.get(i));
+        }
     }
 
     @Override
     public void renderAll() {
+        checkProjectFile();
 
+        System.out.println("Wait..");
+        long startTime = System.currentTimeMillis();
+        businessLogicalLayer.renderAllModels();
+        long endTime = (System.currentTimeMillis() - startTime);
+        System.out.printf("Operation is done for %d ms.\n", endTime);
     }
 
     @Override
     public void renderModel(int i) {
+        checkProjectFile();
 
+        ArrayList<Model3D> models = (ArrayList<Model3D>)businessLogicalLayer.getAllModels();
+        if(i < 0 || i > models.size() - 1){
+            throw new RuntimeException("Number of model is not found!");
+        }
+        System.out.println("Wait..");
+        long startTime = System.currentTimeMillis();
+        businessLogicalLayer.renderingModel(models.get(i));
+        long endTime = (System.currentTimeMillis() - startTime);
+        System.out.printf("Operation is done for %d ms.\n", endTime);
     }
 }
 
@@ -152,12 +212,23 @@ class EditorBusinessLogicalLayer implements BusinessLogicalLayer{
 
     @Override
     public void renderingModel(Model3D model) {
-        //...
+        processRender(model);
     }
 
     @Override
     public void renderAllModels() {
-        //...
+        for (Model3D model: getAllModels()){
+            processRender(model);
+        }
+    }
+    private Random random = new Random();
+    private void processRender(Model3D model) {
+        try{
+            Thread.sleep(2500 - random.nextInt(2000));
+        }
+        catch(InterruptedException e){
+            e.printStackTrace();
+        }
     }
 }
 /**
