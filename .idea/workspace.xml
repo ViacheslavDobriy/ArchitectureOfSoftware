@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Почти досмотрел семинар 1 час 57 минут">
+    <list default="true" id="f7a6158c-c17f-4377-adfc-dbe34ec69f08" name="Changes" comment="Досмотрел семинар. Записей не делал">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/NotesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/databases/NotesDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/databases/NotesRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/databases/NotesTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/application/ConcreteNoteEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/application/interfaces/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/application/interfaces/NoteEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/application/interfaces/NotesDatabaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/application/interfaces/NotesPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/core/domain/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/infrastructure/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/infrastructure/DatabaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/infrastructure/DbContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/infrastructure/ModelConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/infrastructure/NoteConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/presentation/request/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/presentation/request/controller/NotesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seminar6/notes/presentation/request/views/NotesConsolePresenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22,_1_25_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_22__1_25_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar5/Sample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seminar5/Sample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seminar6/ApplicationNotes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,13 +66,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Sample1">
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.Homework" />
+  <component name="RunManager" selected="Application.NotesApplication">
+    <configuration name="LSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar3.LSP" />
       <module name="ArchitectureOfSoftware" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.*" />
+          <option name="PATTERN" value="Seminar3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seminar3.LSP" />
+    <configuration name="NotesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seminar6.NotesApplication" />
       <module name="ArchitectureOfSoftware" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seminar3.*" />
+          <option name="PATTERN" value="Seminar6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotesApplication" />
         <item itemvalue="Application.Sample1" />
         <item itemvalue="Application.SimplyWorld" />
         <item itemvalue="Application.Seminar4.Factory" />
         <item itemvalue="Application.LSP" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671733357092</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Досмотрел семинар. Записей не делал">
+      <created>1671987733910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671987733910</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +213,7 @@
     <MESSAGE value="Worked on Seminar 4.1" />
     <MESSAGE value="Начал все заново и издалека. Когда-нибудь это будет готово)" />
     <MESSAGE value="Почти досмотрел семинар 1 час 57 минут" />
-    <option name="LAST_COMMIT_MESSAGE" value="Почти досмотрел семинар 1 час 57 минут" />
+    <MESSAGE value="Досмотрел семинар. Записей не делал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Досмотрел семинар. Записей не делал" />
   </component>
 </project>
